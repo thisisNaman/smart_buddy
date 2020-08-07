@@ -9,7 +9,7 @@ Use this assistant for opening google, any windows app that you like, youtube, s
 The following things needs to be installed on your pc before you can fully utilise this.
 
 1. Python 3
-### The following python modules:
+### The following python modules are also needed:
 1. webbrowser
 2. pyttsx3
 3. speech_recognition
