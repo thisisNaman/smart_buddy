@@ -1,4 +1,4 @@
-# smart_buddy
+# Hello smart_buddy 👋
 
 ## A simple voice assistant at your service!
 
@@ -16,5 +16,6 @@ The following things needs to be installed on your pc before you can fully utili
 4. wikipedia
 5. pyjokes ( for sum funny programmer's jokes :))
 6. psutil
+7. pyautogui
 
 ## Just run the code and enjoy :)
