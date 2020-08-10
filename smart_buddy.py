@@ -118,8 +118,7 @@ if __name__ == "__main__":
             speak("Which one would you like to open ? Notepad or OneNote")
             ask = takeCommand().lower()
             if 'onenote' in query:
-                speak("Which one?")
-                os.system('start OneNote:')
+                os.system('start onenote:')
             elif 'notepad' in query:
                 speak("Opening Notepad")
                 subprocess.Popen('C:\\Windows\\System32\\notepad.exe')
