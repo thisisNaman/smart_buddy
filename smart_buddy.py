@@ -47,22 +47,11 @@ def takeCommand():
     r=sr.Recognizer()
     with sr.Microphone() as source:
         print('Listening.....')
-        #loading animation
-        # while True:
-        #     for rod in r'\|/-':
-        #         print(rod,end='\r')
-        #         sleep(0.25)
-        #...........
-        r.pause_threshold=1
+        r.pause_threshold=1          #time to pause after listening
+        r.energy_threshold = 600     #so that the assistant don't pay attention to disturbing voices
         audio=r.listen(source)
     try:
-        print(random.choice(think))
-        #loading animation
-        # while True:
-        #     for rod in r'\|/-':
-        #         print(rod,end='\r')
-        #         sleep(0.25)
-        #.............
+        print(random.choice(think)
         query = r.recognize_google(audio, language='en-in')
         print(f"{query}\n")
     except Exception as e:
