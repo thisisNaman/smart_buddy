@@ -125,6 +125,12 @@ if __name__ == "__main__":
             else:
                 speak("Sorry.....Please try again")
                 print("Sorry.....Please try again")
+        elif 'open start' in query or 'click on start' in query:
+            pyautogui.click(39, 1048)                          # these coordinates are according to my screen  
+        elif 'screenshot' in query:
+            speak('screenshot captured')                        # for capturing screenshot
+            im = pyautogui.screenshot()
+            im.show()
             
 
         
