@@ -21,7 +21,7 @@ hr=int(datetime.datetime.now().hour)
 m = int(datetime.datetime.now().minute)
 #random lists---------------------------------------------------------------------
 think = ["Thinking...","Recognizing..."]
-sorry = ["Apologies...I could not get that","Sorry..Will you please repeat that","Please try one more time..","Sorry..","Didn't get that"]
+sorry = ["Apologies...I could not get that","Sorry..Will you please repeat that","Please try one more time..","Sorry..","Didn't get that","Please make sure you are connected to the internet!"]
 greetings = ["Hi there! ", "Hello?","What\'s up","Hey Sir","Pleased to meet you!","Namaste"]
 farewell = ["See you soon","Great talking with you...See you soon","Bye Bye","Nice talking with you","Take Care!"]
 
