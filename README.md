@@ -18,4 +18,5 @@ The following things needs to be installed on your pc before you can fully utili
 6. psutil
 7. pyautogui
 
+and......of course internet.....:p
 ## Just run the code and enjoy :)
