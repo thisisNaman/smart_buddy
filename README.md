@@ -1,4 +1,4 @@
-# Hello smart_buddy 👋
+# Hello Smart Buddy 👋
 
 ## A simple voice assistant at your service!
 
