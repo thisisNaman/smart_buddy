@@ -111,9 +111,9 @@ if __name__ == "__main__":
             if int(percent)<15:
                 speak("I suggest you put your device on charging!")  
         elif 'open calculator' in query or 'start calulator' in query or 'calculate' in query or 'calculator' in query:
-            subprocess.Popen('C:\\Windows\\System32\\calc.exe')
+            subprocess.Popen('C:\\Windows\\System32\\calc.exe')          #set path
         elif 'open wordpad' in query or 'start wordpad' in query or 'wordpad' in query:
-            subprocess.Popen('C:\\Windows\\System32\\write.exe')
+            subprocess.Popen('C:\\Windows\\System32\\write.exe')        #set path
         elif 'make notes' in query or 'open notes' in query or 'notes' in query or 'note' in query:
             speak("Which one would you like to open ? Notepad or OneNote")
             ask = takeCommand().lower()
